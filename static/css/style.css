@@ -1,0 +1,14 @@
+/* EN EL PROBLEMA DE SOLUCION DE BUGS RESULTO QUE EL ARCHIVO SI ESTABA VINCULADO, PERO EL CAMBIO DE EL COLOR DE EL BACKGROUND NO SE APLICA */
+/* BUG DE LA VINCULACION Y APLICACION DE LOS COLORES ARREGLADA, POR ALGUN MOTIVO LOS UNICOS COLORES QUE ADMITIA EL CUERPO FUERON LOS DE UI GRADIENTS, CREO QUE SE DEBE AL GRADO DE IMPORTANCIA QUE SE LES HA ASIGNADO */
+
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.task-description,
+.font-weight-bold{
+    color: #ffffff;
+}
+
